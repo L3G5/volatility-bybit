@@ -46,7 +46,7 @@ st.header("**Combined Table**")
 
 session_unauth = usdt_perpetual.HTTP(endpoint="https://api.bybit.com")
 all_symbols = pd.json_normalize(session_unauth.query_symbol()['result'])
-coin_names = all_symbols.loc[all_symbols['name'].str[-1:]=='T', 'name'].to_list()[:5]
+coin_names = all_symbols.loc[all_symbols['name'].str[-1:]=='T', 'name'].to_list()
 
 dfs = {}
 dfs_daily = {}
