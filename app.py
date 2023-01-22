@@ -13,13 +13,13 @@ st.sidebar.image(
 )
 st.sidebar.header('Intro')
 st.sidebar.markdown(">Like it says in the book: 'We are blessed... and cursed'")
-st.sidebar.markdown("In crypto we are blessed with high volatility, which at the same time means that")
-st.sidebar.markdown("1. entry points for high leveraged positions should be chosen with special care")
+st.sidebar.markdown("In crypto we are blessed with high volatility, which at the same time means")
+st.sidebar.markdown("1. entry points for high leveraged positions should be chosen with care")
 st.sidebar.markdown("2. opportunities appear and fade away very quickly")
+st.sidebar.markdown("This is the tool to help you a bit")
 
-st.sidebar.header('How can you use this tool?')
-st.sidebar.markdown("- The color of the cells 'period' is most blue for those cells which have the biggest volatility value; the color of the cells 'period_p' is near red when value is near 0 and green when value is near 1.")
-st.sidebar.markdown('- In the bull market you can make a small list of the coins that "have not yet run" for further analysis by choosing small-valued timeframe columns, such as "1D"; you can also choose use the coins that might have completed their retracement')
+st.sidebar.header('How can you use this script?')
+st.sidebar.markdown("- The color of the cells 'period' is most blue for those cells which have the biggest volatility value; the color of the cells 'period_p' is near red when value is near 0 and green when value is near 1. In the bull market you can make a small list of the coins that 'have not yet run' for further analysis by choosing small-valued timeframe columns, such as '1D'; you can also choose use the coins that might have completed their retracement")
 st.sidebar.markdown('- ...?')
 
 st.sidebar.header('How does it work?')
